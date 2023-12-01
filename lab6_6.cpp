@@ -12,7 +12,7 @@ int main(){
         }else{ 
             odd++;
         }
-        cout << "Enter an integer:";
+        cout << "Enter an integer: ";
         cin >> x;
     }        
     cout << "#Even numbers = " << even << "\n";
