@@ -7,12 +7,12 @@ int main(){
     cin >> x;
     int even =  0, odd = 0;
     while(x != 0){
-        if(x%2 == 0){
+        if(x%2 ){
             even++;
-        }else{ 
+        }else{
             odd++;
         }
-        cout << "Enter an integer: ";
+        cout << "Enter an integer";
         cin >> x;
     }        
     cout << "#Even numbers = " << even << "\n";
